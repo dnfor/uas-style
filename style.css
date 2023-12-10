@@ -1,0 +1,48 @@
+/* // Fonts */
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+/* // Variables */
+@import 'variables';
+
+/* // Bootstrap */
+@import 'bootstrap/scss/bootstrap';
+
+
+.content{
+    background-color: rgb(211, 246, 219);
+}
+
+.home-card{
+    background-color: white;
+}
+
+.home-square{
+    background-color: white;
+}
+
+.nav-list{
+    list-style-type: none;
+}
+
+.links{
+    color: black;
+    text-decoration: none;
+}
+
+.item-active{
+    background-color: rgb(99, 99, 99);
+    color:white;
+}
+
+.links:hover{
+    background-color: rgb(220, 220, 220);
+}
+
+.links:active{
+    background-color: rgb(65, 65, 65);
+    color:white;
+}
+
+tr {
+    line-height: 25px;
+}
